@@ -1,0 +1,152 @@
+@media screen and (max-width:1000px) {
+    .main {
+        height: 72vh;
+        background-image: url("images/bg.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    nav {
+        box-sizing: border-box;
+        padding: 4vh 0;
+        margin: 0px auto;
+        display: flex;
+        width: 90vw;
+        height: 65px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+    .main .box {
+        height: 72vh;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+    }
+    .main .text {
+        padding: 0 10px;
+        padding-top: 120px;
+        text-align: center;
+        gap: 10px;
+    }
+    .main .text> :first-child{
+        font-size: 40px;
+    }
+    .main .text> :nth-child(2){
+        font-size: 20px;
+    }
+    .main .text> :nth-child(3){
+        font-size: 15px;
+    }
+    .main .text input{
+        width: 280px;
+        height: 45px;
+        padding: 0px 7px;
+    }
+    .main .text button{
+        width: 170px;
+        height: 46px;
+        font-size: 17px;
+        padding: 0px 7px;
+    }
+
+    .odd_box{
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 10vh 0;
+    }
+    .even_box{
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 10vh 0;
+    }
+    .content .txt{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .content .txt h1{
+        font-size: 30px;
+    }
+    .content .txt p{
+        font-size: 20px;
+    }
+    .content .poster{
+        width: 80%;
+    }
+    .content .poster img{
+        width: 90%;
+        height: 100%;
+    }
+    .v1{
+        width: 70%;
+        left: 17%;
+    }
+    .st_box{
+        max-width: 45%;
+        max-height: 13%;
+        padding: 2%;
+        top: 73%;
+    }
+    .st_box .txt{
+        align-items: flex-start;
+    }
+    .st_box .txt p{
+        font-size: 15px;
+        font-weight: bolder;
+        margin: 0%;
+    }
+    .v3{
+        left: 22%;
+        max-width: 55%;
+    }
+
+    .faq{
+        margin: 5vh 0;
+    }
+    .faq h1{
+        font-size: 30px;
+    }
+    .questions{
+        width: 100%;
+    }
+    .qbox p{
+        font-size: 20px;
+    }
+    .qbox .plus{
+        font-size: 50px;
+    }
+    .f_end span{
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .f_end input{
+        width: 280px;
+        height: 45px;
+        padding: 0px 7px;
+    }
+    .f_end button{
+        width: 170px;
+        height: 46px;
+        font-size: 17px;
+        padding: 0px 7px;
+    }
+    .links a{
+        width: 46%;
+    }
+}

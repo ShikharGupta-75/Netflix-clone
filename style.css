@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 0;
+    height: 100vh;
+    background-image: url("images/bg.jpg");
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav {
+    box-sizing: border-box;
+    padding: 8.3vh 8vw;
+    margin: 0px auto;
+    display: flex;
+    width: 90vw;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.L_S{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.select{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246,238,238,0.4);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.L_S select{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    cursor: pointer;
+}
+.L_S button{
+    width: 80px;
+    height: 31px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 7px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+}
+.L_S button a{
+    text-decoration: none; 
+    color: white; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .main .box {
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+    }
+
+.main .text {
+    padding: 0 23px;
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+.main .text> :first-child{
+    font-weight: 100;
+    font-size: 45px;
+}
+.main .text> :nth-child(2){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.main .text> :nth-child(3){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+.main .text .E_B{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main .text input{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 55px;
+    font-size: 18px;
+    padding: 0px 10px;
+    border: 1px solid rgba(246,238,238,0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(23,23,23,0.7);
+}
+.main .text button{
+    width: 220px;
+    height: 56px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 5;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.separation{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(43, 41, 41);
+}
+
+.content{
+    box-sizing: border-box;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 0;
+}
+.content .txt{
+    width: 46%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content .txt h1{
+    font-size: 40px;
+}
+.content .txt p{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.content .poster{
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.content .poster img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.v1{
+    position: absolute;
+    top: 19%;
+    left: 13%;
+    max-width: 74%;
+}
+.st_box{
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    top: 68%;
+    max-width: 60%;
+    max-height: 20%;
+    display: flex;
+    padding: 1%;
+    background-color: black;
+    border: 2px solid rgba(246,238,238,0.4);
+    border-radius: 10px;
+    gap: 15px;
+    align-items: center;
+}
+.st_box .txt{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.st_box .txt p{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0%;
+}
+#Download{
+    font-weight: 100;
+    color: #0071eb;
+}
+.st_box img{
+    max-width: 17%;
+}
+.v3{
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    max-width: 62%;
+}
+
+.faq{
+    color: white;
+    margin: 10vh 0;
+}
+.faq h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.qbox{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.qbox p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.qbox .plus{
+    font-size: 60px;
+}
+.f_end{
+    margin-top: 5vh;
+    text-align: center;
+}
+.f_end span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+.f_end .E_B{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.f_end input{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 55px;
+    font-size: 18px;
+    padding: 0px 10px;
+    border: 1px solid rgba(246,238,238,0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(23,23,23,0.7);
+}
+.f_end button{
+    width: 220px;
+    height: 56px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 5;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10vh 0;
+    color: white;
+}
+footer .call{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .call a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+footer .links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.links a{
+    width: 23%;
+    color: rgb(151, 145, 145);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .lang{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246,238,238,0.4);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+footer .lang select{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: inherit;
+    cursor: pointer;
+}
+footer .netflix_india{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
