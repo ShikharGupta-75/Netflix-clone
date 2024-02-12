@@ -18,6 +18,9 @@
         position: relative;
         z-index: 1;
     }
+    .L_S{
+        gap: 10px;
+    }
     .main .box {
         height: 72vh;
         width: 100%;
